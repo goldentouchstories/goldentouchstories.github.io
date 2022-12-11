@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <div>
         <Link
-          href="/contact"
+          href="/"
           style={{
             color: "white",
             display: "flex",
@@ -30,62 +30,54 @@ export default function Home() {
             textDecoration: "underline",
           }}
         >
-          Contact
+          Home
         </Link>
       </div>
       <div style={styles.body}>
         <Grid
           container
-          spacing={2}
           sx={{
             width: "100%",
             position: "absolute",
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            top: "25%",
+            top: "45%",
             margin: "0 auto",
           }}
         >
-          <Grid item xs={10} sm={10} md={8} lg={6} xl={6}>
+          <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Typography
+              component="a"
+              mb={2}
               sx={{
                 color: "white",
-                mb: 2,
-                fontSize: "1.65em",
-                fontWeight: "bold",
                 display: "flex",
+                // flexDirection: "row",
+                textDecoration: "none",
+                justifyContent: "center",
                 alignItems: "center",
+                fontSize: 24,
               }}
+              href="mailto:info@goldentouchstories.com"
             >
-              Analy Goldentouch
+              <MailIcon sx={{ mr: 1 }} /> info@goldentouchstories.com
             </Typography>
             <Typography
+              component="a"
+              mb={2}
               sx={{
                 color: "white",
-                mb: 5,
-                fontSize: "1.65em",
-                fontWeight: "bold",
                 display: "flex",
+                // flexDirection: "row",
+                textDecoration: "none",
                 alignItems: "center",
+                justifyContent: "center",
+                fontSize: 24,
               }}
+              href="https://www.instagram.com/goldentouchstories/"
             >
-              Seyedali Peyghambari {"( as Alan Goldentouch )"}
-            </Typography>
-            <Divider sx={{ mb: 5 }} color="white" />
-            <Typography
-              sx={{
-                width: "100%",
-                color: "white",
-                mb: 2,
-                fontSize: "1.65em",
-                fontWeight: "bold",
-                display: "flex",
-                // justifyCosntent: "center",
-                margin: "0 auto",
-              }}
-            >
-              Screenwriter | Children&apos;s Book Author | Lyricist
+              <InstagramIcon sx={{ mr: 1 }} /> @goldentouchstories
             </Typography>
           </Grid>
         </Grid>
