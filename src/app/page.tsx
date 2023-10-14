@@ -176,17 +176,17 @@ export default function Navbar(): JSX.Element {
                     mt={'3%'}
                     className={youngSerif.className}
                     fontWeight="bold"
-                    fontSize="1.75rem"
+                    fontSize="2.5rem"
                   >
-                    Golden Touchstories
+                    Goldentouch Stories
                   </Typography>
                   <Grid
                     item
                     container
                     display="flex"
-                    justifyContent="center"
-                    alignItems="center"
-                    textAlign="center"
+                    justifyContent="flex-end"
+                    alignItems="flex-end"
+                    // textAlign="flex-end"
                     xl={10}
                     lg={10}
                     md={10}
@@ -201,8 +201,7 @@ export default function Navbar(): JSX.Element {
                           ...NAVBAR_APPBAR_TYPOGRAPHY,
                           color: WHITE_COLOR,
                           textDecoration: 'none',
-                          marginTop: 10,
-                          margin: '0 10px', // Adjust margin as needed
+                          margin: '0 11px', // Adjust margin as needed
                         }}
                         // className="times"
                         className="font-serif"
@@ -318,7 +317,7 @@ export default function Navbar(): JSX.Element {
                 fontSize="1.3rem"
                 mb={5}
               >
-                Screenwriter | Children\'s Literature Author | Lyricist |
+                Screenwriter | Children's Literature Author | Lyricist |
                 Psychologist
               </Typography>
             </Grid>
