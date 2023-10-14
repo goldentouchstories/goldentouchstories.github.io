@@ -7,7 +7,7 @@ import Favicon32 from './favicon-32x32.png';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Golden Touchstories',
+  title: 'Goldentouch Stories',
   description: 'SeyedAli Peyghambari & Analy Goldentouch',
   icons: [
     { rel: 'icon', url: Favicon.src },

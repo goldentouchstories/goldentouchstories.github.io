@@ -51,25 +51,6 @@ const navigation = [
   { name: 'CONTACT', href: '/contact-us', current: false },
 ];
 
-// const Main = styled("main", { shouldForwardProp: (prop) => prop !== "open" })<{
-//   open?: boolean;
-// }>(({ theme, open }) => ({
-//   flexGrow: 1,
-//   padding: theme.spacing(3),
-//   transition: theme.transitions.create("margin", {
-//     easing: theme.transitions.easing.sharp,
-//     duration: theme.transitions.duration.leavingScreen,
-//   }),
-//   marginLeft: `-${drawerWidth}px`,
-//   ...(open && {
-//     transition: theme.transitions.create("margin", {
-//       easing: theme.transitions.easing.easeOut,
-//       duration: theme.transitions.duration.enteringScreen,
-//     }),
-//     marginLeft: 0,
-//   }),
-// }));
-
 interface AppBarProps extends MuiAppBarProps {
   open?: boolean;
 }
@@ -253,12 +234,6 @@ export default function Navbar(): JSX.Element {
               pt: 3,
             }}
           >
-            {/* <Grid container>
-            <Grid item display="flex" sm={2} xs={6} mb="5%">
-            <Image src={logo} alt="golden touchstories logo" />
-            </Grid>
-          </Grid> */}
-
             {navigation.map((title) => (
               <Link
                 href={title.href}
@@ -270,7 +245,7 @@ export default function Navbar(): JSX.Element {
                   paddingBottom: '3%',
                   overflow: 'visible',
                 }}
-                className="times"
+                className="font-serif"
               >
                 {title.name}
               </Link>
@@ -278,9 +253,6 @@ export default function Navbar(): JSX.Element {
           </List>
           <Divider />
         </Drawer>
-        {/* <Main open={open}>
-        <DrawerHeader />
-      </Main> */}
       </Box>
       <Container
         sx={{
@@ -298,7 +270,12 @@ export default function Navbar(): JSX.Element {
               xs={10}
               className="mx-auto"
             >
-              <Typography className="calibri" fontSize="1.4rem">
+              <Typography
+                className="font-serif"
+                fontSize="1.4rem"
+                fontWeight={700}
+                textAlign={'center'}
+              >
                 ANALY GOLDENTOUCH & SEYEDALI PEYGHAMBARI
               </Typography>
             </Grid>
@@ -316,6 +293,7 @@ export default function Navbar(): JSX.Element {
                 gutterBottom
                 fontSize="1.3rem"
                 mb={5}
+                textAlign="center"
               >
                 Screenwriter | Children's Literature Author | Lyricist |
                 Psychologist
