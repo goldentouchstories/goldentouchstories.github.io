@@ -1,7 +1,5 @@
 'use client';
 import * as React from 'react';
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
-// import BorderColorIcon from "@mui/icons-material/BorderColor";
 import Box from '@mui/material/Box';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
@@ -13,21 +11,15 @@ import IconButton from '@mui/material/IconButton';
 import MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar';
 import {
   BG_COLOR,
-  FONT_FAMILY,
   MAIN_COLOR,
   NAVBAR_APPBAR_TYPOGRAPHY,
   NAVBAR_CONTAINER_DISPLAY,
   NAVBAR_ICON_BUTTON_DISPLAY,
-  QUATERNARY_COLOR,
-  SECONDARY_COLOR,
   WHITE_COLOR,
 } from '../../public/theme/theme';
 import List from '@mui/material/List';
 import MenuIcon from '@mui/icons-material/Menu';
-// import NewsPaperIcon from "@mui/icons-material/Newspaper";
 import Toolbar from '@mui/material/Toolbar';
-// import Typography from "@mui/material/Typography";
-import PhoneIcon from '@mui/icons-material/Phone';
 import { styled, useTheme } from '@mui/material/styles';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -295,7 +287,7 @@ export default function Navbar(): JSX.Element {
                 mb={5}
                 textAlign="center"
               >
-                Screenwriter | Children's Literature Author | Lyricist |
+                Screenwriter | Children&lsquo;s Literature Author | Lyricist |
                 Psychologist
               </Typography>
             </Grid>
@@ -312,14 +304,15 @@ export default function Navbar(): JSX.Element {
             >
               <Typography className="calibri" gutterBottom fontSize="1.15rem">
                 Analy and Ali, a couple deeply passionate about storytelling,
-                find joy in the art of creation. They've discovered their talent
-                in crafting captivating screenplays, weaving enchanting tales
-                for young readers, and crafting lyrics that touch the heart.
-                Together, they've nurtured a harmonious creative partnership,
-                bound by their dedication to the craft of breathing life into
-                stories using the power of words, scripts, and melodies. Their
-                journey in the realm of storytelling is a reflection of their
-                deep love for the art, a journey they continue to hold dear.
+                find joy in the art of creation. They&lsquo;ve discovered their
+                talent in crafting captivating screenplays, weaving enchanting
+                tales for young readers, and crafting lyrics that touch the
+                heart. Together, they&lsquo;ve nurtured a harmonious creative
+                partnership, bound by their dedication to the craft of breathing
+                life into stories using the power of words, scripts, and
+                melodies. Their journey in the realm of storytelling is a
+                reflection of their deep love for the art, a journey they
+                continue to hold dear.
               </Typography>
             </Grid>
             <Grid
