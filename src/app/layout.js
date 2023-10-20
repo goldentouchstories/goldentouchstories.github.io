@@ -9,6 +9,10 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
   title: 'Goldentouch Stories',
   description: 'SeyedAli Peyghambari & Analy Goldentouch',
+  keywords: ['Goldentouch Stories'],
+  authors: [{ name: 'Seyedali Peyghambari' }, { name: 'Analy Goldentouch' }],
+  applicationName: 'Goldentouch Stories',
+  creator: 'Sobhan Esfandyari',
   icons: [
     { rel: 'icon', url: Favicon.src },
     { rel: 'apple-touch', url: AppleFavicon.src },

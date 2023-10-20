@@ -32,6 +32,15 @@ const youngSerif = Young_Serif({ subsets: ['latin'], weight: '400' });
 
 const drawerWidth = 240;
 
+export const metadata = {
+  title: 'Goldentouch Stories',
+  description: 'Seyedali Peyghambari & Analy Goldentouch',
+  keywords: ['Goldentouch Stories'],
+  authors: [{ name: 'Seyedali Peyghambari' }, { name: 'Analy Goldentouch' }],
+  applicationName: 'Goldentouch Stories',
+  creator: 'Sobhan Esfandyari',
+};
+
 const navigation = [
   { name: 'HOME', href: '/', current: true },
   { name: 'FILM & TV', href: '/film-and-tv', current: false },
