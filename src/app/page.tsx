@@ -32,7 +32,7 @@ const youngSerif = Young_Serif({ subsets: ['latin'], weight: '400' });
 
 const drawerWidth = 240;
 
-export const metadata = {
+const metadata = {
   title: 'Goldentouch Stories',
   description: 'Seyedali Peyghambari & Analy Goldentouch',
   keywords: ['Goldentouch Stories'],

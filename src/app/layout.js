@@ -18,6 +18,14 @@ export const metadata = {
     { rel: 'apple-touch', url: AppleFavicon.src },
     { rel: 'icon', url: Favicon32.src },
   ],
+  // icons: {
+  //   icon: { url: Favicon.src },
+  //   apple: { url: AppleFavicon.src },
+  //   shortcut: { url: Favicon32.src },
+  // other: {
+  //   rel: { url: Favicon32.src },
+  // },
+  // },
 };
 
 export default function RootLayout({ children }) {
