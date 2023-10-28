@@ -1,6 +1,6 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
-import Favicon from './favicon-16x16.png';
+import Favicon from './favicon.ico';
 import AppleFavicon from './apple-touch-icon.png';
 import Favicon32 from './favicon-32x32.png';
 
