@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
 import * as React from 'react';
-import underConstruction from './../../public/under_construction.gif';
+import underConstruction from './../../public/under_construction2.jpeg';
 
 export default function Page(): JSX.Element {
   return (
@@ -11,7 +11,7 @@ export default function Page(): JSX.Element {
       <Image
         src={underConstruction}
         alt="under construction page"
-        style={{ width: '100%', height: '100%', justifyContent: 'center' }}
+        style={{ width: '100%', height: 'auto', justifyContent: 'center' }}
       />
     </div>
   );
